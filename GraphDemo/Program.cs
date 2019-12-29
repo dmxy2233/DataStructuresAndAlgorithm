@@ -10,6 +10,7 @@ namespace CDS019.GraphDemo
     {
         static void Main(string[] args)
         {
+            string str;
             Console.WriteLine("请输入顶点的数量");
             int i = Convert.ToInt32( Console.ReadLine());
             string[] shuru = new string[i];//接受用户输入的点名称
@@ -24,18 +25,29 @@ namespace CDS019.GraphDemo
             Console.WriteLine("请输入顶点,和普通点。输入完成");
             while(true)
                 {
-                if(Console.ReadLine()=="输入完成")
+                     str=Console.ReadLine();
+                if(str=="输入完成")
                     {
                         break;
                     }
-                    Vertex[count]=Console.ReadLine();
-                    Console.Write("-");
-                    Node[count]=Console.ReadLine();
-                    count++;
+                else 
+                    {
+                         Vertex[count]=str;
+                         Console.WriteLine("|");
+                         Node[count]=Console.ReadLine();
+                         Console.WriteLine(" ");
+                         count++;
+                    }
+                   
                 }
             
             var demoList01= AdjacencyListDemo.GraphWithAdjacencyList(shuru,Vertex,Node);
+
+          //  string s=string.Join(" ",demoList01.ToString());
+              
+           
             Console.WriteLine(demoList01);
+          
             Console.ReadKey();
 
             //demoList01.InitVisited();
