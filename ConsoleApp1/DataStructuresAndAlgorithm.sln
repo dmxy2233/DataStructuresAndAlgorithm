@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresAndAlgorithm", "DataStructuresAndAlgorithm.csproj", "{436C5F6D-A9A9-4DCD-9D6B-502BCDC63052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresAndAlgorithm", "DataStructuresAndAlgorithm.csproj", "{436C5F6D-A9A9-4DCD-9D6B-502BCDC63052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDS019.GraphDemo", "..\GraphDemo\CDS019.GraphDemo.csproj", "{ACB9CA1D-3812-4E29-A9C7-C2BD2D6B0D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDS002.IEnumerableWithGenericsDemo", "..\CDS002.IEnumerableWithGenericsDemo\CDS002.IEnumerableWithGenericsDemo\CDS002.IEnumerableWithGenericsDemo.csproj", "{4A5073BA-1F96-4149-B858-57DAF8337D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playingcards_", "..\playingcards_\playingcards_.csproj", "{CA0A4C2F-22F5-4A95-AB41-F7402632D65A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{436C5F6D-A9A9-4DCD-9D6B-502BCDC63052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436C5F6D-A9A9-4DCD-9D6B-502BCDC63052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436C5F6D-A9A9-4DCD-9D6B-502BCDC63052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB9CA1D-3812-4E29-A9C7-C2BD2D6B0D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB9CA1D-3812-4E29-A9C7-C2BD2D6B0D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB9CA1D-3812-4E29-A9C7-C2BD2D6B0D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB9CA1D-3812-4E29-A9C7-C2BD2D6B0D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5073BA-1F96-4149-B858-57DAF8337D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5073BA-1F96-4149-B858-57DAF8337D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5073BA-1F96-4149-B858-57DAF8337D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5073BA-1F96-4149-B858-57DAF8337D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0A4C2F-22F5-4A95-AB41-F7402632D65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0A4C2F-22F5-4A95-AB41-F7402632D65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0A4C2F-22F5-4A95-AB41-F7402632D65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0A4C2F-22F5-4A95-AB41-F7402632D65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
